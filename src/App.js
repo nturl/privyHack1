@@ -27,7 +27,7 @@ function App() {
             </button>
           </div>
         ) : (
-          <button onClick={login} style={{padding: "12px", backgroundColor: "#069478", color: "#FFF", border: "none", borderRadius: "6px" }}>Log In</button>
+          <button onClick={login} style={{padding: "12px", backgroundColor: "#000000", color: "#FFF", border: "none", borderRadius: "6px" }}>Get Started</button>
         )}
       </header>
     </div>

@@ -1,43 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noosphere</title>
+  <style>
+    .Top1 {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: white;
+    }
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    .Group13 {
+      width: 126px;
+      height: 36px;
+      left: 657px;
+      top: 200px;
+      position: absolute;
+    }
+
+    .Rectangle2 {
+      width: 126px;
+      height: 36px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: rgba(255, 255, 255, 0);
+      border: 0.50px black solid;
+    }
+
+    .GetStarted {
+      width: 126px;
+      height: 36px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      text-align: center;
+      color: black;
+      font-size: 16px;
+      font-family: Inter;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+
+    .UnleashingCollectiveIntelligenceCurateShareAndLearn {
+      width: 704px;
+      height: 191px;
+      left: 368px;
+      top: 373px;
+      position: absolute;
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      font-family: Inter;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+
+    .Group14 {
+      width: 126px;
+      height: 36px;
+      left: 1274px;
+      top: 33px;
+      position: absolute;
+    }
+
+    .Rectangle1 {
+      width: 126px;
+      height: 36px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: rgba(255, 255, 255, 0);
+      border: 0.50px black solid;
+    }
+
+    .ConnectWallet {
+      width: 126px;
+      height: 36px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      text-align: center;
+      color: black;
+      font-size: 16px;
+      font-family: Inter;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+
+    .Noosphere {
+      width: 210px;
+      height: 40px;
+      left: 44px;
+      top: 33px;
+      position: absolute;
+      text-align: center;
+      color: black;
+      font-size: 32px;
+      font-family: Inter;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+    /* Navbar styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      font-family: Inter;
+      font-weight: 400;
+    }
+
+    /* Active link style */
+    .nav-link.active {
+      font-weight: bold;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="Top1">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a class="nav-link active" href="creatorpage.html">Explore</a></li>
+        <li><a class="nav-link" href="create.html">Create</a></li>
+      </ul>
+    </nav>
+  <div class="Top1">
+    <div class="Group13">
+      <!--
+      <div class="Rectangle2"></div>
+      <div class="GetStarted">Get Started</div>
+      -->
+      <div id="root"></div>
+    </div>
+    <div class="UnleashingCollectiveIntelligenceCurateShareAndLearn">
+      Unleashing Collective Intelligence<br/>- Curate, Share, and Learn
+    </div>
     <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div class="Group14">
+      <div class="Rectangle1"></div>
+      <div class="ConnectWallet">connect wallet</div>
+    </div>-->
+    <div class="Noosphere">noosphere</div>
+  </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+      
+</body>
 </html>
